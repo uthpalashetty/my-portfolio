@@ -6,6 +6,7 @@
   <meta name="description" content="Uthpala J Shetty is a Java backend developer specializing in Spring Boot microservices, Kafka, and AWS.">
   <title>Uthpala J Shetty | Java Backend Developer</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
 </head>
 <body>
   <div class="portfolio-shell">
@@ -16,10 +17,6 @@
           <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="8" r="4"/><path d="M5 21a7 7 0 0 1 14 0"/></svg>
           <span>About</span>
         </a>
-        <a href="#projects">
-          <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m14 6 4 4M3 21l3.5-.8L20 6.7 17.3 4 3.8 17.5 3 21Z"/><path d="m13 7 4 4"/></svg>
-          <span>Work</span>
-        </a>
         <a href="#experience">
           <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 12h18M10 12v2h4v-2"/></svg>
           <span>Experience</span>
@@ -27,6 +24,10 @@
         <a href="#skills">
           <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/></svg>
           <span>Skills</span>
+        </a>
+        <a href="#certifications">
+          <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3h10v12H7zM9 7h6M9 10h6M10 15l-1 6 3-2 3 2-1-6"/></svg>
+          <span>Certifications</span>
         </a>
         <a href="#education">
           <svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m2 10 10-5 10 5-10 5-10-5Z"/><path d="M6 12v5c3.5 3 8.5 3 12 0v-5M22 10v6"/></svg>
@@ -47,11 +48,17 @@
           <h1>Uthpala J Shetty</h1>
           <p class="location">Bengaluru, India</p>
           <p class="pitch">
-            I build reliable Java and Spring Boot services. Over 4 years at Mercedes-Benz Research and Development, I've helped modernize enterprise systems, reduce service latency by about 25%, and deliver cloud applications on AWS and Kubernetes.
+            Java Backend Developer specializing in Spring Boot microservices, event-driven architecture with Kafka, PostgreSQL and Oracle data layers, and cloud-native delivery on AWS and Kubernetes, with hands-on full-stack experience in Angular and a strong focus on clean, secure, well-tested code.
           </p>
           <div class="buttons">
-            <a href="#projects" class="btn btn-primary">View Selected Work</a>
-            <a href="Uthpala_Shetty_Resume.pdf" download class="btn btn-outline">Download Resume</a>
+            <a href="Uthpala_Shetty_Resume.pdf" download class="btn btn-primary">
+              <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 17v3h14v-3"/></svg>
+              <span>Download Resume</span>
+            </a>
+            <a href="mailto:uthpalajshetty@gmail.com" class="btn btn-outline">
+              <svg class="button-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <span>Contact Me</span>
+            </a>
           </div>
         </div>
       </header>
@@ -61,27 +68,6 @@
       <div class="resume-content">
         <p class="resume-label">Resume</p>
 
-  <section id="projects">
-    <h2>Selected Work</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>System Control Modernization</h3>
-        <p>Helped modernize legacy Java EE and Swing workflows into Angular interfaces and Spring Boot APIs. Built Oracle-backed simulations with filtering and multi-sheet XLSX export.</p>
-        <p class="tech">Java · Spring Boot · Oracle · Angular · OpenAPI</p>
-      </div>
-      <div class="card">
-        <h3>Event-Driven Microservices</h3>
-        <p>Reworked synchronous service calls into Kafka and Amazon MSK pipelines across 6+ microservices, reducing end-to-end processing latency by about 25%.</p>
-        <p class="tech">Java 17 · Spring Boot · Kafka · Amazon MSK</p>
-      </div>
-      <div class="card">
-        <h3>Cloud Delivery &amp; Quality</h3>
-        <p>Built CI/CD pipelines that cut release time from about 40 minutes to under 15, and helped deploy 10+ services on Kubernetes and AWS ECS Fargate.</p>
-        <p class="tech">GitHub Actions · Docker · Kubernetes · AWS</p>
-      </div>
-    </div>
-  </section>
-
   <section id="experience">
     <h2>Experience</h2>
     <div class="timeline">
@@ -89,7 +75,14 @@
         <span class="date">Aug 2022 – Present</span>
         <h3>Java Backend Developer</h3>
         <p class="place">Mercedes-Benz Research and Development · Bengaluru, India</p>
-        <p>Develop Java 17 and Spring Boot microservices across vehicle, contract, and product platforms. Served as Proxy Project Lead for a 12-member Agile team across 4 Program Increments.</p>
+        <div class="role-project">
+          <p class="project-title"><strong>System Control Modernization</strong><span class="date"> · Jul 2026 – Present</span></p>
+          <p>Helping modernize a legacy Java EE and Swing application into an Angular and Spring Boot REST architecture, building Oracle-backed simulation APIs with paginated filtering and XLSX export while preserving legacy business rules.</p>
+        </div>
+        <div class="role-project">
+          <p class="project-title"><strong>OneSCM</strong><span class="date"> · Aug 2022 – Jun 2026</span></p>
+          <p>Built Java 17 and Spring Boot 3 microservices for contract, product, and vehicle management, and re-engineered synchronous calls into event-driven Kafka/Amazon MSK pipelines, reducing latency by ~25%. Built CI/CD pipelines that cut release time from ~40 to under 15 minutes, and served as Proxy Project Lead for a 12-member Agile team across 4 Program Increments.</p>
+        </div>
       </div>
       <div class="job">
         <span class="date">Apr 2022 – Aug 2022</span>
@@ -103,18 +96,46 @@
   <section id="skills">
     <h2>Skills</h2>
     <div class="skills">
-      <span>Java 17</span>
-      <span>Spring Boot 3</span>
-      <span>Microservices</span>
-      <span>Apache Kafka</span>
-      <span>PostgreSQL</span>
-      <span>Oracle</span>
-      <span>AWS</span>
-      <span>Kubernetes</span>
-      <span>Docker</span>
-      <span>JUnit &amp; Mockito</span>
-      <span>CI/CD</span>
-      <span>Angular</span>
+      <div class="skill-item"><i class="devicon-java-plain colored skill-icon" aria-hidden="true"></i><span>Java 17</span></div>
+      <div class="skill-item"><i class="devicon-spring-plain colored skill-icon" aria-hidden="true"></i><span>Spring Boot 3</span></div>
+      <div class="skill-item">
+        <svg class="skill-icon skill-icon-svg" viewBox="0 0 32 32" aria-hidden="true"><circle cx="7" cy="16" r="3"/><circle cx="25" cy="7" r="3"/><circle cx="25" cy="25" r="3"/><path d="m10 15 12-7M10 17l12 7"/></svg>
+        <span>Microservices</span>
+      </div>
+      <div class="skill-item"><i class="devicon-apachekafka-original colored skill-icon" aria-hidden="true"></i><span>Apache Kafka</span></div>
+      <div class="skill-item"><i class="devicon-postgresql-plain colored skill-icon" aria-hidden="true"></i><span>PostgreSQL</span></div>
+      <div class="skill-item"><i class="devicon-git-plain colored skill-icon" aria-hidden="true"></i><span>Git</span></div>
+      <div class="skill-item"><i class="devicon-amazonwebservices-plain-wordmark colored skill-icon" aria-hidden="true"></i><span>AWS</span></div>
+      <div class="skill-item"><i class="devicon-kubernetes-plain colored skill-icon" aria-hidden="true"></i><span>Kubernetes</span></div>
+      <div class="skill-item"><i class="devicon-docker-plain colored skill-icon" aria-hidden="true"></i><span>Docker</span></div>
+      <div class="skill-item"><i class="devicon-junit-plain colored skill-icon" aria-hidden="true"></i><span>JUnit &amp; Mockito</span></div>
+      <div class="skill-item">
+        <svg class="skill-icon skill-icon-svg" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 6v8h20M6 14v12M16 14v12M26 14v12"/><circle cx="6" cy="6" r="2"/><circle cx="6" cy="14" r="2"/><circle cx="16" cy="14" r="2"/><circle cx="26" cy="14" r="2"/><circle cx="6" cy="26" r="2"/><circle cx="16" cy="26" r="2"/><circle cx="26" cy="26" r="2"/></svg>
+        <span>CI/CD</span>
+      </div>
+      <div class="skill-item">
+        <svg class="skill-icon skill-icon-angular" viewBox="0 0 32 32" aria-hidden="true"><path fill-rule="evenodd" d="M16 2 3 7l2 18 11 5 11-5 2-18L16 2Zm0 6 7 16h-4l-1.4-3.5h-3.2L13 24H9l7-16Z"/></svg>
+        <span>Angular</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="job">
+      <h3>Certified SAFe 6 Agilist</h3>
+    </div>
+    <div class="job">
+      <h3>DevSecOps Grey Belt and White Belt</h3>
+      <p class="place">Mercedes-Benz Internal Security Program</p>
+    </div>
+    <div class="job">
+      <h3>AWS Cloud Technical Essentials</h3>
+      <p class="place">Udemy</p>
+    </div>
+    <div class="job">
+      <h3>Gradle for Java Developers</h3>
+      <p class="place">Udemy</p>
     </div>
   </section>
 
@@ -125,15 +146,57 @@
       <h3>B.E. in Information Science Engineering</h3>
       <p class="place">NMAM Institute of Technology, Nitte · GPA 9.4/10</p>
     </div>
-    <p>Certified SAFe 6 Agilist · DevSecOps Grey Belt and White Belt</p>
   </section>
 
   <section id="contact">
     <h2>Get in Touch</h2>
-    <p>Open to backend engineering opportunities.</p>
-    <a href="mailto:uthpalajshetty@gmail.com" class="btn btn-primary">uthpalajshetty@gmail.com</a>
+    <p class="availability"><span class="availability-dot" aria-hidden="true"></span>Available for opportunities</p>
+    <p>Open to Java backend and full-stack roles in Bengaluru or remote. I usually reply within a day.</p>
+    <div class="contact-cards">
+      <article class="contact-card">
+        <span class="contact-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </span>
+        <div class="contact-card-details">
+          <span class="contact-card-label">Email</span>
+          <a class="contact-card-value" href="mailto:uthpalajshetty@gmail.com">uthpalajshetty@gmail.com</a>
+        </div>
+        <button class="copy-button" type="button" data-copy-value="uthpalajshetty@gmail.com" aria-label="Copy email address" title="Copy email address">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></svg>
+          <span class="copy-feedback" aria-live="polite"></span>
+        </button>
+      </article>
+      <article class="contact-card">
+        <span class="contact-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><path d="M7 3h3l2 5-2 1.5a15 15 0 0 0 4.5 4.5L16 12l5 2v3c0 1.1-.9 2-2 2C10.7 19 5 13.3 5 5c0-1.1.9-2 2-2Z"/></svg>
+        </span>
+        <div class="contact-card-details">
+          <span class="contact-card-label">Phone</span>
+          <a class="contact-card-value" href="tel:+919141161838">+91 91411 61838</a>
+        </div>
+        <button class="copy-button" type="button" data-copy-value="+91 91411 61838" aria-label="Copy phone number" title="Copy phone number">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3"/></svg>
+          <span class="copy-feedback" aria-live="polite"></span>
+        </button>
+      </article>
+      <article class="contact-card">
+        <span class="contact-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+        </span>
+        <div class="contact-card-details">
+          <span class="contact-card-label">Location</span>
+          <span class="contact-card-value">Bengaluru, India</span>
+        </div>
+      </article>
+    </div>
+    <a href="mailto:uthpalajshetty@gmail.com" class="btn btn-primary contact-cta">Say Hello &rarr;</a>
     <div class="socials">
-      <a href="https://www.linkedin.com/in/uthpala-j-shetty-37141521a" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/uthpala-j-shetty-37141521a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5.2 3.5a1.7 1.7 0 1 1 0 3.4 1.7 1.7 0 0 1 0-3.4ZM3.7 9h3v11h-3V9Zm5 0h2.9v1.5h.1A3.2 3.2 0 0 1 14.6 8c3.1 0 3.7 2 3.7 4.6V20h-3v-6.6c0-1.6 0-3-1.9-3s-2.2 1.4-2.2 2.9V20h-3V9Z"/></svg>
+      </a>
+      <a href="https://github.com/uthpalajshetty" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5a9.5 9.5 0 0 0-3 18.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.1-1.1-1.4-1.1-1.4-.9-.6.1-.6.1-.6 1 0 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.6.4-1.1.6-1.3-2.2-.2-4.5-1.1-4.5-4.8 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.7 9.7 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.7-2.3 4.6-4.5 4.8.4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.5Z"/></svg>
+      </a>
     </div>
   </section>
 
@@ -144,5 +207,53 @@
     </main>
   </div>
 
+  <script>
+    const copyTimeouts = new WeakMap();
+
+    async function copyText(text) {
+      if (navigator.clipboard && window.isSecureContext) {
+        try {
+          await navigator.clipboard.writeText(text);
+          return;
+        } catch {
+        }
+      }
+
+      const temporaryInput = document.createElement("textarea");
+      temporaryInput.value = text;
+      temporaryInput.style.position = "fixed";
+      temporaryInput.style.opacity = "0";
+      document.body.append(temporaryInput);
+      try {
+        temporaryInput.select();
+        if (!document.execCommand("copy")) throw new Error("Clipboard copy failed");
+      } finally {
+        temporaryInput.remove();
+      }
+    }
+
+    document.querySelectorAll(".copy-button").forEach((button) => {
+      button.addEventListener("click", async () => {
+        const feedback = button.querySelector(".copy-feedback");
+        try {
+          await copyText(button.dataset.copyValue);
+          feedback.textContent = "Copied!";
+          button.setAttribute("aria-label", "Copied!");
+          button.classList.add("is-copied");
+        } catch {
+          feedback.textContent = "Copy failed";
+          button.setAttribute("aria-label", "Copy failed");
+          button.classList.add("copy-failed");
+        }
+
+        clearTimeout(copyTimeouts.get(button));
+        copyTimeouts.set(button, setTimeout(() => {
+          feedback.textContent = "";
+          button.setAttribute("aria-label", button.title);
+          button.classList.remove("is-copied", "copy-failed");
+        }, 1500));
+      });
+    });
+  </script>
 </body>
 </html>
